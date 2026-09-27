@@ -13,7 +13,7 @@ export const App: React.FC = () => {
       {/* 2. Login Page */}
       <Route path="/login" element={<LoginPage />} />
 
-      {/* 3. Only One Unified Dashboard With All Features */}
+      {/* 3. Unified Dashboard With All Features */}
       <Route path="/dashboard" element={<DashboardPage />} />
       <Route path="/app/*" element={<Navigate to="/dashboard" replace />} />
 

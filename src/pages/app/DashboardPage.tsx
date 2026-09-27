@@ -5,10 +5,7 @@ import {
   CheckCircle2, FileCheck2, Plus, Trash2,
   Navigation, LogOut, X, Clock, Play, Pause, Printer, ArrowRight
 } from 'lucide-react';
-import { Button } from '../../components/ui/Button';
-import { Card } from '../../components/ui/Card';
-import { Input } from '../../components/ui/Input';
-import { ElectroFineLogo } from '../../components/ui/ElectroFineLogo';
+import { ElectroFineLogo, Button, Card, Input } from '../../components/ui/ElectroFineLogo';
 import {
   electrofineApi,
   DEVICE_CATEGORIES,

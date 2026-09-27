@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { Button } from '../components/ui/Button';
-import { Input } from '../components/ui/Input';
-import { ElectroFineLogo } from '../components/ui/ElectroFineLogo';
+import { ElectroFineLogo, Button, Input } from '../components/ui/ElectroFineLogo';
 import { electrofineApi } from '../lib/api';
 
 export const LoginPage: React.FC = () => {
