@@ -1,0 +1,8 @@
+{
+  "name": "ElectroFine — Smart E-Waste Pickups, Live Collector Tracking & Fair Payouts",
+  "description": "ElectroFine is a modern e-waste recycling platform that helps individuals and businesses schedule e-waste pickups, track collectors in real time, and get paid fairly for what they recycle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

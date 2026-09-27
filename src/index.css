@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-color: #CFE3D8;
+}
+
+html, body {
+  height: 100%;
+  background-color: #F3F8F5;
+  color: #0A291B;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  color: #0A291B;
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A8CBB8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #009150;
+}
+
+/* ElectroFine Highlight Card (#009150 Shade Family) */
+.ef-highlight-card {
+  background: linear-gradient(145deg, rgba(0, 117, 64, 0.92) 0%, rgba(0, 92, 50, 0.96) 100%);
+  border: 1.5px solid rgba(255, 255, 255, 0.28);
+  box-shadow: inset 0 1.5px 1px 0 rgba(255, 255, 255, 0.25), 0 14px 32px -8px rgba(0, 55, 30, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.ef-highlight-card:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}

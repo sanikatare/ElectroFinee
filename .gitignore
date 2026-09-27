@@ -1,0 +1,19 @@
+# Dependencies & Build Output
+node_modules/
+dist/
+
+# Lockfiles to prevent Bun runtime mismatch on Vercel
+bun.lock
+bun.lockb
+
+# Environment Variables
+.env
+.env.local
+
+# Local Persistence Snapshots
+.electrofine-*.json
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
